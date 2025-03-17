@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" opacity="0.6" width="400" height="400" viewBox="0 0 800 800">
+    <style>
+        @keyframes blink-scale {
+
+            0%,
+            to {
+                r: 5
+            }
+
+            50% {
+                r: 15
+            }
+        }
+
+        .prefix__circle {
+            animation: blink-scale 1.5s infinite
+        }
+
+        .prefix__circle:nth-child(1) {
+            animation-delay: 0s
+        }
+
+        .prefix__circle:nth-child(2) {
+            animation-delay: .3s
+        }
+
+        .prefix__circle:nth-child(3) {
+            animation-delay: .6s
+        }
+
+        .prefix__circle:nth-child(4) {
+            animation-delay: .9s
+        }
+
+        .prefix__circle:nth-child(5) {
+            animation-delay: 1.2s
+        }
+
+        .prefix__circle:nth-child(6) {
+            animation-delay: 1.5s
+        }
+
+        .prefix__circle:nth-child(7) {
+            animation-delay: 1.8s
+        }
+
+        .prefix__circle:nth-child(8) {
+            animation-delay: 2.1s
+        }
+
+        .prefix__circle:nth-child(9) {
+            animation-delay: 2.4s
+        }
+
+        .prefix__circle:nth-child(10) {
+            animation-delay: 2.7s
+        }
+
+        .prefix__circle:nth-child(11) {
+            animation-delay: 3s
+        }
+
+        .prefix__circle:nth-child(12) {
+            animation-delay: 3.3s
+        }
+
+        .prefix__circle:nth-child(13) {
+            animation-delay: 3.6s
+        }
+
+        .prefix__circle:nth-child(14) {
+            animation-delay: 3.9s
+        }
+    </style>
+    <g fill="#e3d3bb">
+        <circle class="prefix__circle" cx="769" cy="229" r="5" />
+        <circle class="prefix__circle" cx="539" cy="269" r="5" />
+        <circle class="prefix__circle" cx="603" cy="493" r="5" />
+        <circle class="prefix__circle" cx="731" cy="737" r="5" />
+        <circle class="prefix__circle" cx="520" cy="660" r="5" />
+        <circle class="prefix__circle" cx="309" cy="538" r="5" />
+        <circle class="prefix__circle" cx="295" cy="764" r="5" />
+        <circle class="prefix__circle" cx="40" cy="599" r="10" />
+        <circle class="prefix__circle" cx="102" cy="382" r="5" />
+        <circle class="prefix__circle" cx="127" cy="80" r="10" />
+        <circle class="prefix__circle" cx="370" cy="105" r="5" />
+        <circle class="prefix__circle" cx="578" cy="42" r="5" />
+        <circle class="prefix__circle" cx="237" cy="261" r="8" />
+        <circle class="prefix__circle" cx="390" cy="382" r="5" />
+    </g>
+</svg>

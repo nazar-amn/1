@@ -1,0 +1,27 @@
+$(if var == "")
+<script>
+	window.location.href="index.html"
+</script>
+$(else)
+$(if error == "")
+{
+"logged_in": 		"$(logged-in)",
+"link_only":		"$(link-orig-esc)",
+"link_login_only": 	"$(link-login-only)",
+"link_logout":		"$(link-logout)",
+"link_status":		"$(link-status)",
+"nas_id": 		    "$(identity)",
+"ip": 		        "$(ip)",
+"mac": 		        "$(mac-esc)",
+"action":           "onLoginStart"
+}
+$(else)
+{
+"logged_in" 	    : "$(logged-in)",
+"link_login_only" 	: "$(link-login-only)",
+"error_orig"		: "$(error-orig)",
+"error"				: "$(error)",
+"action"			: "onLoginError"
+}
+$(endif)
+$(endif)

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#15213b" />
+    <title>yemen </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body translate="no">
+    <div class="container">
+        <div class="screen">
+            <div class="bk bk1"></div>
+            <div class="bk bk2"></div>
+            <div class="bk bk3"></div>
+            <div class="logo"></div>
+            <div class="screen-content">
+                <div class="login">
+                    <section class="section">
+                        <p class="marquee">تذكر ان الله ينظر اليك و خاف منه كما تخاف من ان ينظر اليك من بجانبك </p>
+                    </section>
+                    <div class="nettitle">
+                        <h1>شبكة اليمن اللاسلكية</h1>
+                        <br>
+                        ترحب بكم
+                    </div>
+                    <div class="login-form">
+                        <br><br>
+                        <form name="login" onsubmit="return onLoginSubmitted()"><input type="hidden" name="dst"
+                                value="$(link-orig)" />
+                            <p class="error" style="margin-top: 5px;" id="error"></p>
+                            <input type="hidden" name="popup" value="true" />
+                            <div class="login-field">
+                                <img class="login-icon" src="img/user.svg" alt="#" /><input class="login-input"
+                                    name="username" type="text" value="" placeholder="أدخل رقم الكرت هنا" required
+                                    autocomplete="off" username-field rm-white-spaces improve-input
+                                    to-arabic-numbers />
+                            </div><label>
+                                <input name="password" type="hidden" placeholder="كلمة المرور" />
+                            </label>
+                            <select id="se" name="" id=""></select>
+                            <button type="button" class="login-submit" enable-hot-cookie>تسجيل الدخول
+                            </button>
+                        </form>
+                        <!-- $(if trial == 'yes') -->
+			<a  class="slfny" href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">
+				
+				<button style="background: 0; border: 2px solid #fff; width: 30%; height: 30px; border-radius: 10px;margin: 25px auto 5px">تحربة مجانية</button>
+			</a>
+			<!-- .$(endif) -->
+                        <div class="btns">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <button type="button" parent-id="price">
+                                            <div class="rbtn">
+                                                <div class="btnicon d">
+
+                                                </div>
+                                            </div>
+
+                                            الاسعار
+                                        </button>
+                                    </td>
+                                    <td> <button type="button" parent-id="sell-point">
+                                            <div class="rbtn">
+                                                <div class="btnicon l">
+                                                </div>
+                                            </div>
+
+                                            نقاط البيع
+                                        </button></td>
+                                    <td><button type="button" parent-id="info">
+                                            <div class="rbtn">
+                                                <div class="btnicon i">
+                                                </div>
+                                            </div>
+
+                                            تعليمات
+                                        </button></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div style="margin-top: -20px;" class="btns btns2">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a style="padding-right:20px ;" href="tel:+967777777777">اتصال
+                                            <img class="login-icon a-icon" src="img/c.svg" alt="#" /></a>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                        <a style="padding-left:20px ;" href="https://wa.me/967777777777">
+                                            <img style="left: 1px; right: unset;" class="login-icon a-icon"
+                                                src="img/w.svg" alt="#" />
+                                            واتساب</a>
+                                    </td>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="app" id="price">
+                    <p class="title">الاسعار </p>
+                    <div class="app-bot">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col">الفئة</th>
+                                    <th scope="col">الوقت</th>
+                                    <th scope="col">الرصيد</th>
+                                    <th scope="col">الصلاحية</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>100 ريال</td>
+                                    <td>0 ساعة </td>
+                                    <td>0 ميجا</td>
+                                    <td>0 ايام</td>
+                                </tr>
+                                <tr>
+                                    <td>100 ريال</td>
+                                    <td>0 ساعة </td>
+                                    <td>0 ميجا</td>
+                                    <td>0 ايام</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <div class="app-logout app-submit">رجوع </div>
+                    </div>
+                </div>
+                <div class="app" id="sell-point">
+                    <p class="title">نقاط البيع </p>
+                    <div class="app-bot">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        جميع البقالات في اماكن التغطية
+                            </tbody>
+                        </table>
+                        <div class="app-logout app-submit">رجوع </div>
+                    </div>
+                </div>
+                <div class="app" id="info">
+                    <p class="title">تعليمات </p>
+                    <div class="app-bot">
+
+                        <p>1- ننصح باختيار تعطيل التحديثات التلقائية من المتجر لتجنب استهلاك البيانات .
+                        <p>2-• تطبيق <strong><span style=color:#1b7bf8>( Facebook ) الازرق
+                                </span></strong>يستهلك البيانات إستهلاك كبير ، لمن يريد إستهلاك أقل يستخدم
+                            التطبيق الاخر الذي من نفس الشركه ولكنه أخف إسمه <strong><span style="color:rgb(226, 226, 226)">(
+                                    Facebook Lite الابيض )</span></strong>
+                        <p>3- تطبيقات <strong><span style=color:#ff4b4b>يوتيوب ( YouTube ) </span></strong> يعرض
+                            جودة الفيديوهات بشكل تلقائي حسب سرعة العميل <strong><span style=color:#ff4b4b>مما
+                                    يؤدي الى استهلاك البيانات (الرصيد) </span></strong>لمن يريد إستهلاك أقل
+                            (جودة فيديو متوسطة) يقوم بـ تغيير من الاعدادات جودة الفيديو من تلقائية الى مثلا 360
+                            بيكسل او ( حسب الدقة المطلوبة وكذالك الحال في تطبيق الفيسبوك والفيدميت والسنابتوب
+                            وغيرها.
+                        <p>5- • تأكد من<strong><span style=color:#ff4b4b> إغلاق خاصية التحميل التلقائي للفيديوهات
+                                    والصور والملفات </span></strong></p>الموجوده في تطبيقات : <table
+                            style=margin-top:25px>
+                            <tbody>
+                                <tr>
+                                    <td>• تطبيق <strong><span>( Google Play ) قووقل
+                                                بلاي</span></strong>. </td>
+                                </tr>
+                                <tr>
+                                    <td>• تطبيق <strong><span>( Whatsapp ) واتس
+                                                اب</span></strong>.</td>
+                                </tr>
+                                <tr>
+                                    <td>• تطبيق <strong><span>( Facebook ) فيس
+                                                بوك</span></strong>.</td>
+                                </tr>
+                                <tr>
+                                    <td>• تطبيق <strong><span>( Teleram )
+                                                تلقرام</span></strong>.</td>
+                                </tr>
+                        </table>
+
+                        <div class="app-logout app-submit">رجوع </div>
+                    </div>
+                </div>
+                <div class="app" id="status">
+                    <div class="app-top">
+                        <p class="title">تم تسجيل الدخول بنجاح
+                    </div>
+                    <br>
+                    <div class="app-bot">
+                        <p><a style="text-decoration: none; color: #44b4e4; padding: 5px;border: 1px solid; border-radius: 10px;"
+                                href="status.html">إذا لم يتم الأتصال تلقائيا أضغط هنا </a>
+                        <div class="data"><span>التحميل المتبقي :</span><span id="remain_bytes_total">غير محدود </span>
+                        </div>
+                        <div class="data"><span>الوقت المتبقي :</span><span id="session_time_left">غير محدود</span>
+                        </div>
+                        <div class="data"><span>الأستهلاك :</span><span id="bytes_in"></span></div>
+                        <button class=" app-submit logout-submit" erase-cookie clear-hot-cookie>تسجيل الخروج </button>
+                        <div class="btns btns2">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a style="padding-right:20px ;" href="tel:+967777777777">اتصال
+                                            <img class="login-icon a-icon" src="img/c.svg" alt="#" /></a>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+
+                                        <a style="padding-left:20px ;" href="https://wa.me/967777777777">
+                                            <img style="left: 1px; right: unset;" class="login-icon a-icon"
+                                                src="img/w.svg" alt="#" />
+                                            واتساب</a>
+                                    </td>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="app" id="block">
+                    <div class="app-top">
+                        <p class="title">انت محظور</p>
+                    </div>
+                    <div class="app-bot">
+                        <div style="padding: 25px">
+                            <p class="contact-text">لقد تم حظرك بسبب محاولات تسجيل الدخول الكثيرة الخاطئة</p>
+                            <div class="app-user"><span>بقي على فك الحظر: </span><span count-down-span></span></div>
+                        </div>
+
+                        <div class="bottom-info" style="right: 86px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/hotInImprover.min.js"></script>
+        <script src="js/hotCookie.min.js"></script>
+        <script src="js/hotBlocker.min.js" enable-hot-blocker try-count="10" block-time="1"></script>
+        <script src="js/main.min.js" link-login-only="$(link-login-only)"></script>
+</body>
+
+</html>
